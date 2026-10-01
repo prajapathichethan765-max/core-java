@@ -1,0 +1,4 @@
+ in a chapter 4bwe descwibes how the fork syatem call is created the area that covers all the dwelling houses and pujblic places in all the areas of making who are in use of the area networkiong ol-f thr area see the fork area of the make use udere world loone untaadu
+ andareni laani kastuntaru udayaistaadu tupakullu nigalike niga pette bikku bikku taru mar aye
+ thar mar thakara maar thar mar takara maar thar mar thakara maar when a user preese the area of thr network in the area of the networking ikrt is the process of making all the dwelling houses and the public places 
+ la la la la the fork and exec system calls the area that covers all trhe dwelling houses and public places

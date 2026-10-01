@@ -1,0 +1,32 @@
+class clinic{
+	public static void main(String[] args){
+		Hospital.addPatient();
+		Hospital.removePatient();
+		Hospital.updatePatient();
+		Hospital.searchPatient();
+		Hospital.displayPatient();
+		Hospital.addDoctor();
+		Hospital.removeDoctor();
+		Hospital.updateDoctor();
+		Hospital.searchDoctor();
+		Hospital.searchDoctor();
+		Hospital.bookAppointment();
+		Hospital.cancleAppointment();
+		Hospital.updateAppointment();
+		Hospital.displayAppointment();
+		Hospital.admitpatient();
+		Hospital.dischargepatient();
+		Hospital.assignDoctor();
+		Hospital.generatBill();
+		Hospital.payBill();
+		Hospital.addMedicine();
+		Hospital.updateMedicineStock();
+		Hospital.issueMedicine();
+		Hospital.searchMedicine();
+		Hospital.displayMedicine();
+		Hospital.check();
+		Hospital.allocateRoom();
+		Hospital.releaseRoom();
+		Hospital.detailes();
+	}
+}

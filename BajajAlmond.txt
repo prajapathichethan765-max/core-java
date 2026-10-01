@@ -1,0 +1,38 @@
+class BajajAlmond{
+
+String brand=almond;
+String color=yellow;
+int price=250;
+int weight=500;
+String mFD="12-2-26";
+			    System.out.println("before re-initalization");	
+			    System.out.println("name of the oil="+brand);
+			    System.out.println("price="+price);
+			    System.out.println("weight of the drink="+weight);
+			    System.out.println("mrd="+mFD);
+			    System.out.println("color Of Box is ="+color);
+				brand="amla";
+				color="green";
+				price=239;
+				weight=500;
+				mFD="12-3-28";
+				System.out.println("after re-initalization");	
+			    System.out.println("name of the drink="+name);
+			    System.out.println("price="+price);
+			    System.out.println("weight of the drink="+weight);
+			    System.out.println("flavour of the drink="+flavour);
+			    System.out.println("color Of Box is ="+colorOfBox);
+				brand="amla";
+				color="green";
+				price=239;
+				weight=500;
+				mFD="12-3-28";
+				System.out.println("after re-initalization");	
+			    System.out.println("name of the drink="+name);
+			    System.out.println("price="+price);
+			    System.out.println("weight of the drink="+weight);
+			    System.out.println("flavour of the drink="+flavour);
+			    System.out.println("color Of Box is ="+colorOfBox);
+				
+}
+}
