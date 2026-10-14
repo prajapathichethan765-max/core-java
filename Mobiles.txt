@@ -1,0 +1,63 @@
+class Mobiles {
+    public static void main(String[] args) {
+        System.out.println("price of mobile in bangalore");
+        double a = 25000.50;
+        Mobiles.mobilePrice(a);
+
+        System.out.println("price of mobile in rajasthan and up");
+        double b = 30000.50;
+        double c = 35000.75;
+        Mobiles.mobilePriceInRajasthanAndUP(b, c);
+
+        System.out.println("price of mobile in mp, nepal, gujarat");
+        double d = 20000.50;
+        double e = 40000.75;
+        double f = 15000.25;
+        Mobiles.priceOfMobileInMPNepalGujarat(d, e, f);
+
+        System.out.println("quality of mobiles in mp, nepal, gujarat, rajasthan");
+        Mobiles.qualityOfMobile("good", "better", "best", "average");
+
+        System.out.println("colors of mobiles");
+        String clr1 = "black";
+        String clr2 = "white";
+        String clr3 = "blue";
+        String clr4 = "silver";
+        String clr5 = "gold";
+
+        Mobiles.colorsOfMobiles(clr1, clr2, clr3, clr4, clr5);
+    }
+
+    static void mobilePrice(double a) {
+        System.out.println("price of mobile = " + a);
+    }
+
+    static void mobilePriceInRajasthanAndUP(double b, double c) {
+        System.out.println("price of mobile in rajasthan = " + b);
+        System.out.println("price of mobile in up = " + c);
+    }
+
+    static void priceOfMobileInMPNepalGujarat(double d, double e, double f) {
+        System.out.println("price of mobile in mp = " + d);
+        System.out.println("price of mobile in nepal = " + e);
+        System.out.println("price of mobile in gujarat = " + f);
+    }
+
+    static void qualityOfMobile(String qualityInMP, String qualityInNepal,
+                                String qualityInGujarat, String qualityInRajasthan) {
+        System.out.println("quality of mobile in mp = " + qualityInMP);
+        System.out.println("quality of mobile in gujarat = " + qualityInGujarat);
+        System.out.println("quality of mobile in nepal = " + qualityInNepal);
+        System.out.println("quality of mobile in rajasthan = " + qualityInRajasthan);
+    }
+
+    static void colorsOfMobiles(String clrOfSamsung, String clrOfVivo,
+                                String clrOfOppo, String clrOfRedmi,
+                                String clrOfApple) {
+        System.out.println("color of Samsung = " + clrOfSamsung);
+        System.out.println("color of Vivo = " + clrOfVivo);
+        System.out.println("color of Oppo = " + clrOfOppo);
+        System.out.println("color of Redmi = " + clrOfRedmi);
+        System.out.println("color of Apple = " + clrOfApple);
+    }
+}

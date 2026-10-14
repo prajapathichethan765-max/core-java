@@ -1,14 +1,25 @@
 class Watch{
-	public static void main(String[] args){
-		String brandName = "rebook";
-		int heightOfBatInCm = 7;
-		float weightInKg = 1.5f;
-String color = "white";
-String shape = "round";
-	System.out.println("watch brand Name="+brandName);
-	System.out.println(" height of watch ="+heightOfBatInCm);
-	System.out.println(" weight of watch="+weightInKg);
-	System.out.println("color of watch"+color);
-	System.out.println(" shape of watch="+shape);
-	}
-}	
+public static void main(String[] args){
+String brand="Birla White";
+String color="Black";
+int prize=5000;
+double weight=45.5;
+int warrenty=2;
+boolean available=true;
+String location="Yelahanka";
+String quality="High";
+String dateOfManufacture="02-2004";
+String dateOfExpired="09-2005";
+
+System.out.println("brand="+brand);
+System.out.println("color="+color);
+System.out.println("prize="+prize);
+System.out.println("weight="+weight);
+System.out.println("warrenty="+warrenty);
+System.out.println("available="+available);
+System.out.println("location="+location);
+System.out.println("quality="+quality);
+System.out.println("dateOfManufacture="+dateOfManufacture);
+System.out.println("dateOfExpired="+dateOfExpired);
+}
+}
