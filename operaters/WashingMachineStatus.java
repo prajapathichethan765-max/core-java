@@ -1,30 +1,27 @@
 class WashingMachineStatus{
-	static boolean statusOfTve = false;
+	static boolean statusOfWashingMachin = false;
 public static void main(String[] args){
-	System.out.println("check the status of the tv wheather it is off or on");
-	boolean status = TVStatus.check();
-	System.out.println(status);
-	
-	TVStatus.turnOn();
-	boolean status1 = TVStatus.check();
-	System.out.println(status1);
-	
-	TVStatus.trunOff();
-	boolean status2 = TVStatus.check();
-	System.out.println(status2);
-	
-	
-}
-static boolean check(){
-	return statusOfTve;
-}
-static void turnOn(){
-	System.out.println("tv is on");
-	statusOfTve = true;
-}
-static void trunOff(){
-	System.out.println("tv is off ");
-	statusOfTve = false;
+System.out.println("check the status of the WashingMachine wheather it is off or on");
+boolean status = WashingMachineStatus.check();
+System.out.println(status);
+
+WashingMachineStatus.turnOn();
+System.out.println(statusOfWashingMachin);
+
+WashingMachineStatus.turnOff();
+System.out.println(statusOfWashingMachin);	
 
 }
+static boolean check(){
+return statusOfWashingMachin;
 }
+static void turnOn(){
+System.out.println("turn on the maechin");
+statusOfWashingMachin = true;
+}
+static void turnOff(){
+System.out.println("turn off the meachin");
+statusOfWashingMachin = false;
+}
+}
+	
