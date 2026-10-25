@@ -1,30 +1,30 @@
 class BulbStatus{
-	static boolean statusOfTve = false;
+	static boolean statuSOfBuld= false;
 public static void main(String[] args){
-	System.out.println("check the status of the tv wheather it is off or on");
-	boolean status = TVStatus.check();
-	System.out.println(status);
-	
-	TVStatus.turnOn();
-	boolean status1 = TVStatus.check();
-	System.out.println(status1);
-	
-	TVStatus.trunOff();
-	boolean status2 = TVStatus.check();
-	System.out.println(status2);
-	
+System.out.println("status of the bulb wheather it is off or on");
+boolean status = BulbStatus.check();
+System.out.println(status);
+
+BulbStatus.turnOn();
+boolean status1 = BulbStatus.check();
+System.out.println(status1);
+
+BulbStatus.turnOff();
+boolean status2 = BulbStatus.check();
+System.out.println(status2);
+
 	
 }
 static boolean check(){
-	return statusOfTve;
+	return statuSOfBuld;
 }
 static void turnOn(){
-	System.out.println("tv is on");
-	statusOfTve = true;
+	System.out.println("tuen on the bylb");
+	statuSOfBuld = true;
 }
-static void trunOff(){
-	System.out.println("tv is off ");
-	statusOfTve = false;
-
+static void turnOff(){
+	System.out.println("turn off the bulb");
+	statuSOfBuld = false;
+	
 }
 }
