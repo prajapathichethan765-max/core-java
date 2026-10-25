@@ -23,7 +23,7 @@ class Heater{
 		statusOfHeater = true;
 	}
 	static void turnOff(){
-		system.out.println("turn off the heater");
+		System.out.println("turn off the heater");
 		statusOfHeater = false;
 	}
 }
