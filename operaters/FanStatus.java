@@ -1,30 +1,33 @@
 class FanStatus{
-	static boolean statusOfTve = false;
+	static boolean statusOfFan = false;
 public static void main(String[] args){
-	System.out.println("check the status of the tv wheather it is off or on");
-	boolean status = TVStatus.check();
+	System.out.println("check the status of the fan wheather it is off or on");
+	boolean status = FanStatus.check();
 	System.out.println(status);
 	
-	TVStatus.turnOn();
-	boolean status1 = TVStatus.check();
-	System.out.println(status1);
+	FanStatus.turnOn();
 	
-	TVStatus.trunOff();
-	boolean status2 = TVStatus.check();
-	System.out.println(status2);
+	System.out.println(statusOfFan);
+	
+	FanStatus.turnOff();
+	System.out.println(statusOfFan);	
+	
+	
 	
 	
 }
 static boolean check(){
-	return statusOfTve;
+return statusOfFan;
 }
 static void turnOn(){
-	System.out.println("tv is on");
-	statusOfTve = true;
+	System.out.println("turn on the fan");
+	statusOfFan = true;
 }
-static void trunOff(){
-	System.out.println("tv is off ");
-	statusOfTve = false;
+static void turnOff(){
+	System.out.println("turn off the fan");
+	statusOfFan = false;
+}
+}
 
-}
-}
+	
+	
