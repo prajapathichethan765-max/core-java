@@ -24,7 +24,7 @@ static void mathMarks(int a){
 System.out.println(a);
 }
 static void hindiMarks(int b){
-System.out.println(int b);
+System.out.println( b);
 }
 static void englishMarks(int c){
 System.out.println( c);
