@@ -21,14 +21,15 @@ String m3 = "bricks";
 Buliding.materialUsed(m1 ,m2 , m3);
 
 System.out.println("price of the materials");
-String mp1 = 1200 ;
-String mp2 = 1000;
-String mp3 = 1500;
+int mp1 = 1200 ;
+int mp2 = 1000;
+int mp3 = 1500;
 Buliding.materialPrice(mp1 ,mp2 , mp3);
 
 System.out.println("name of the contracter");
+String name = "mohan";
 Buliding.contracterName(name);
-name = "mohan";
+
 
 System.out.println("check the quality of the material and price of block , cement ");
 int priceOfBlock = 300;
@@ -38,7 +39,7 @@ System.out.println(prices);
 
 System.out.println("what is the color of the building");
 String colorOfBuilding = "gray and yellow";
-String coloroFBulding = Buliding.colorOfTheBuilding(coloroFBulding);
+String coloroFBulding = Buliding.colorOfTheBuilding(colorOfBuilding);
 
 
 
@@ -76,10 +77,10 @@ System.out.println(blockPrice);
 System.out.println(cementPrice);
 
 if(blockPrice == 300 && cementPrice == 250){
-return "yes the block price is good and quality is good";
+return 300+250;
 }
 else{
-return "no block price is more and quality is less";
+return 0;
 }
 }
 
