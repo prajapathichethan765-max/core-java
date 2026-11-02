@@ -1,7 +1,7 @@
 class HotelManagement {
     public static void main(String[] args) {
 
-        System.out.println("hotel name");
+        System.out.println("hotel namme");
         HotelManagement.hotelName();
 
         System.out.println("hotel location");
