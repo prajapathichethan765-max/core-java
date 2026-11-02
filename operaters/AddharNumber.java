@@ -1,7 +1,7 @@
 class AddharNumber{
 public static void main(String[] skjedfh){
 
-int addharNumber = 555322;
+int addharNumber = 555322L;
 
 String number = AddharNumber.checkAddharNumber(addharNumber);
 System.out.println(number);
