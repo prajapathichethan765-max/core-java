@@ -8,12 +8,15 @@ switch(hospitalName){
 
 case "pawan Hospital":
 System.out.println("pawan hospital loacted in rajajinagar");
+break;
 
 case "pawaN hospital":
 System.out.println("pawan hospital loacted in jaynagar");
+break;
 
 case "pawan hospital":
 System.out.println("pawan hospital loacted in yelahanka");
+break;
 
 default :
 System.out.println("invalid name");
