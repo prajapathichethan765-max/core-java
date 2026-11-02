@@ -1,7 +1,7 @@
 class UniversityDetails {
     public static void main(String[] args) {
 
-        System.out.println("university name");
+        System.out.println("university nammmme");
         UniversityDetails.universityName();
 
         System.out.println("university address");
