@@ -4,7 +4,7 @@ class CinemaTheatre {
         System.out.println("theatre name");
         CinemaTheatre.theatreName();
 
-        System.out.println("theatre location");
+        System.out.println("theatre locattion");
         CinemaTheatre.theatreLocation();
 
         System.out.println("ticket price");
