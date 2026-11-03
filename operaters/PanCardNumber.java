@@ -1,14 +1,14 @@
 class PanCardNumber{
 public static void main(String[] args){
 
-byte panNumber= 12;
+long panNumber= 1255L;
 String panCard =PanCardNumber.checkPanNumber(panNumber);
 System.out.println(panCard);
 System.out.println(panNumber);
 
 
 }
-static String checkPanNumber (byte panCardNumber){
+static String checkPanNumber (long panCardNumber){
 System.out.println(panCardNumber);
 
 switch(panCardNumber){
@@ -26,3 +26,4 @@ return "invalid pan number";
 }
 }
 }
+
